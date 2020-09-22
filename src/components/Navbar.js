@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-// import { FcBiotech } from 'react-icons/fc';
-import { FaPaw, FaBars, FaTimes } from 'react-icons/fa';
+import { FcBiotech } from 'react-icons/fc';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
@@ -33,8 +33,8 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMenu}>
-              <FaPaw className='navbar-icon' />
-              GIT-A-PET
+              <FcBiotech className='navbar-icon' />
+              MEDLOG
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -47,20 +47,20 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/search'
+                  to='/services'
                   className='nav-links'
                   onClick={closeMenu}
                 >
-                  Quick Search
+                  Services
                 </Link>
               </li>
               <li className='nav-item'>
                 <Link
-                  to='/login'
+                  to='/profile'
                   className='nav-links'
                   onClick={closeMenu}
                 >
-                  Log In
+                  Profile
                 </Link>
               </li>
               <li className='nav-btn'>
@@ -72,7 +72,7 @@ function Navbar() {
                   <Link to='/sign-up' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
-                      buttonSize='btn--medium'
+                      buttonSize='btn--small'
                       onClick={closeMenu}
                     >
                       SIGN UP
