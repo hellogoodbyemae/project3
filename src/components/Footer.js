@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '../../Button';
+// import { Button } from '../Buttons';
 import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { FcBiotech } from 'react-icons/fc';
