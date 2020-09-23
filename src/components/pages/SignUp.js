@@ -5,7 +5,7 @@ import Form from '../Form';
 export default function SignUp() {
   return (
   <>
-    <h1 className='sign-up'></h1>;
+    <h1 className='sign-up'></h1>
     <Form />
   </>
   );
