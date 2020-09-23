@@ -2,10 +2,10 @@ import React from 'react';
 import '../../App.css';
 import Cards from '../Cards';
 
-export default function Services() {
+export default function Profile() {
   return (
   <>
-    <h1 className='services'></h1>;
+    <h1 className='profile'></h1>;
     <Cards />
   </>
   );

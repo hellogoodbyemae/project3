@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Form.css';
-import FormSignup from './FormSignUp';
+import FormLogin from './FormLogin';
 import FormSuccess from './FormSuccess';
 
 const Form = () => {
@@ -17,7 +17,7 @@ const Form = () => {
           <img className='form-img' src='images/lady.png' alt='nurse' />
         </div>
         {!isSubmitted ? (
-          <FormSignup submitForm={submitForm} />
+          <FormLogin submitForm={submitForm} />
         ) : (
           <FormSuccess />
         )}

@@ -8,8 +8,8 @@ export const homeObjOne = {
       "Home health is not easy, and it can be hard keeping track of all your stats. With MedLog, you can easily keep track of your stats, as well as provide them to your doctor, for a much smoother recovery process.",
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/svg-1.svg',
-    alt: 'Credit Card'
+    img: 'images/patient.png',
+    alt: 'Patient Room'
 };
   
 export const homeObjTwo = {
@@ -22,6 +22,6 @@ export const homeObjTwo = {
       "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
     buttonLabel: 'Start Now',
     imgStart: 'start',
-    img: 'images/svg-7.svg',
-    alt: 'Vault'
+    img: 'images/phone.png',
+    alt: 'Phone MD'
 };
