@@ -41,7 +41,7 @@
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
-    border: 2px solid #1c2237;
+    /* border: 2px solid #1c2237; */
     text-decoration: none;
   }
   

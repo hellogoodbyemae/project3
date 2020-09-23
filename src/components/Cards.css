@@ -1,5 +1,5 @@
 .cards {
-    padding: 2rem;
+    padding: 4rem;
     background: #fff;
   }
   
@@ -12,13 +12,13 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 0;
+    margin: 10px 0 20px;
   }
   
   .cards__items {
