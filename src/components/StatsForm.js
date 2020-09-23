@@ -37,7 +37,7 @@ const StatsForm = ({ submitForm }) => {
             onChange={handleChange}
           />
           <input
-            className='form-input2'
+            className='form-input'
             type='text'
             name='amp'
             placeholder='Enter your morning pulse'
@@ -56,7 +56,7 @@ const StatsForm = ({ submitForm }) => {
             onChange={handleChange}
           />
           <input
-            className='form-input2'
+            className='form-input'
             type='text'
             name='pmp'
             placeholder='Enter your evening pulse'
@@ -75,7 +75,7 @@ const StatsForm = ({ submitForm }) => {
             onChange={handleChange}
           />
           <input
-            className='form-input2'
+            className='form-input'
             type='number'
             name='bs2'
             placeholder='Lunch'
@@ -91,7 +91,7 @@ const StatsForm = ({ submitForm }) => {
             onChange={handleChange}
           />
           <input
-            className='form-input2'
+            className='form-input'
             type='number'
             name='bs4'
             placeholder='Bedtime'

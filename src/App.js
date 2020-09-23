@@ -8,6 +8,7 @@ import Login from './components/pages/Login';
 import SignUp from './components/pages/SignUp';
 import Medication from './components/pages/Medication';
 import AddStats from './components/pages/AddStats';
+import Chart from './components/pages/Chart';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/medication' component={Medication} />
           <Route path='/add-stats' component={AddStats} />
+          <Route path='/chart' component={Chart} />
         </Switch>
       </Router>
     </>

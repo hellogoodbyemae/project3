@@ -5,7 +5,7 @@
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     position: relative;
     border-radius: 10px;
-    height: 600px;
+    height: 750px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -20,24 +20,6 @@
     cursor: pointer;
   }
   
-  .form-img {
-    width: 80%;
-    height: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .form-img-2 {
-    width: 60%;
-    height: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
   .form-success {
     text-align: center;
     font-size: 24px;
@@ -47,7 +29,7 @@
   
   .form {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
@@ -90,18 +72,9 @@
     outline: none;
     border-radius: 2px;
     height: 40px;
-    width: 50%;
+    width: 100%;
     border: none;
-  }
-
-  .form-input2 {
-    display: inline;
-    padding-left: 10px;
-    outline: none;
-    border-radius: 2px;
-    height: 40px;
-    width: 50%;
-    border: none;
+    margin-bottom: 5px;
   }
   
   .form-input::placeholder {
